@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import styled from 'styled-components'
 // We are making this div in order to store all the number boxes
 const NumberSelector = ({setError,error, selectedNumer, setselectedNumer }) => {
@@ -25,10 +24,11 @@ const NumberSelector = ({setError,error, selectedNumer, setselectedNumer }) => {
                 ))}
 
                 {/* <Box>1</Box>
-            <Box>1</Box>
-            <Box>1</Box>
-            <Box>1</Box>
-            <Box>1</Box>
+            <Box>2</Box>
+            <Box>3</Box>
+            <Box>4</Box>
+            <Box>5</Box>
+            <Box>6</Box>
             Instead of doing it like this instead we need to use map */}
             </div>
             <p>Select Number</p>
